@@ -8,7 +8,7 @@
     --bg-color: #d7ded8;
     --text-color: #212529;
     --primary-color: #0d6efd;
-    --content-bg: #6fcf81;
+    --content-bg: #63f77e;
     --font-main: 'IBM Plex Sans', sans-serif;
 }
 
@@ -43,7 +43,8 @@ body {
 
 #hero {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 15px 20px 15px;
+    font-size: 1.25rem;
 }
 
 .project-cards {
@@ -52,11 +53,12 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     padding: 1rem 0.5rem;
+    margin: 1rem;
 }
 
 .individual-card {
     background-color: var(--content-bg);
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 5px;
     max-width: 800px;
 }
